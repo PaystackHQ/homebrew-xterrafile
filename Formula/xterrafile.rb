@@ -2,9 +2,9 @@
 class Xterrafile < Formula
   desc "Systematically manage external modules from Github for use in Terraform."
   homepage "https://github.com/devopsmakers/xterrafile"
-  url "https://github.com/devopsmakers/xterrafile/releases/download/v0.4.0/xterrafile_0.4.0_Darwin_x86_64.tar.gz"
-  version "0.4.0"
-  sha256 "aeb004e0ee2b0a1504898212c6074e6ae94e637d2cf90222652929c32a40030f"
+  url "https://github.com/devopsmakers/xterrafile/releases/download/v0.4.1/xterrafile_0.4.1_Darwin_x86_64.tar.gz"
+  version "0.4.1"
+  sha256 "ee4ed3dc483e82256abd442ebc1bc898af3f0f67dfded977eeb4a251f892a3e0"
 
   def install
     bin.install "xterrafile"
