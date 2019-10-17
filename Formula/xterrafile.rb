@@ -2,16 +2,16 @@
 class Xterrafile < Formula
   desc "Systematically manage external modules from Github for use in Terraform."
   homepage "https://github.com/devopsmakers/xterrafile"
-  version "2.1.2"
+  version "2.1.3"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/devopsmakers/xterrafile/releases/download/v2.1.2/xterrafile_2.1.2_Darwin_x86_64.tar.gz"
-    sha256 "bbf3d8e298148c4bf333d68b697c9fee547bb881daacbc9245705c8a3aef0411"
+    url "https://github.com/devopsmakers/xterrafile/releases/download/v2.1.3/xterrafile_2.1.3_Darwin_x86_64.tar.gz"
+    sha256 "bf56acf53fc9d60d612cbdc3d8535592f5439f073ac599f2c680574e3f3d3aa6"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/devopsmakers/xterrafile/releases/download/v2.1.2/xterrafile_2.1.2_Linux_x86_64.tar.gz"
-      sha256 "286bb03572bfbe746ad5b08f52d9e4ae5b6e89b0ca3fcfa638e0f4abcc7fd43e"
+      url "https://github.com/devopsmakers/xterrafile/releases/download/v2.1.3/xterrafile_2.1.3_Linux_x86_64.tar.gz"
+      sha256 "58577b1d621953fb7344848368f3db00ac93c5d39ab66cca606266a9c4e46789"
     end
   end
 
