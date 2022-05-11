@@ -3,7 +3,6 @@ class Xterrafile < Formula
   desc "Systematically manage external modules from Github for use in Terraform."
   homepage "https://github.com/devopsmakers/xterrafile"
   version "2.3.1"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/devopsmakers/xterrafile/releases/download/v2.3.1/xterrafile_2.3.1_Darwin_x86_64.tar.gz"
